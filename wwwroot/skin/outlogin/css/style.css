@@ -1,0 +1,74 @@
+.outlogin_wrapper{
+    padding: 9px 9px 0px 9px;
+}
+
+.login_txt_area input{
+    outline: none;
+    background: #d2d2d2;
+    border: none;
+
+    width: 280px;
+    height: 50px;
+}
+
+.login_txt_area #outlogin_pw{
+    margin-top: 10px;
+}
+
+.menu_list_area_in_login_wrapper{
+    display: block;
+    width: 280px;
+    height: 52px;
+    line-height: 52px;
+    overflow: hidden;
+    border-bottom: 1px solid #0d0d0e;
+    margin: 0 auto;
+}
+
+.menu_list_area_in_login{
+    display: block;
+    width: 171px;
+    height: 51px;
+    line-height: 51px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.menu_list_area_in_login ul li{
+    float:left;
+}
+
+.menu_list_area_in_login ul li a{
+    color:#808080;
+    font-size:15px;
+}
+
+.menu_list_area_in_login ul li{
+    color:#404040;
+    font-size: 15px;
+}
+
+.menu_list_area_in_login ul .login_inner_menu_line{
+    margin: 0 21px 0 21px!important;
+}
+
+.outlogin_login_btn_wrapper{
+    width: 280px;
+    height: 117px;
+    border-top: 1px solid #36363a;
+    padding-top: 27px;
+    margin: 0 auto;
+}
+
+#outlogin_submit{
+    width: 280px;
+    height: 80px;
+    background-image: url(/img/login_submit_btn.png);
+
+    text-decoration: none;
+    border: none;
+    vertical-align: middle;
+
+    cursor: pointer;
+}
